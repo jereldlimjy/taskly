@@ -5,8 +5,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ShoppingListItem name="Coffee" />
-      <ShoppingListItem name="Bread" />
-      <ShoppingListItem name="Milk" />
+      <ShoppingListItem name="Bread" isCompleted />
+      <ShoppingListItem name="Milk" isCompleted />
     </View>
   );
 }
